@@ -73,7 +73,7 @@ int main()
 			p1.x = x;
 			p1.y = y;
 			
-			if (zone(x,y,250,230,180, 45))
+			if (zone(x,y,330,210,180, 72))
 				{
 				tab_point.push_back(p1);
 				taille ++;
