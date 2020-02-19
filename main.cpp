@@ -73,7 +73,7 @@ int main()
 			p1.x = x;
 			p1.y = y;
 			
-			if (zone(x,y,330,210,180, 72))
+			if (zone(x,y,330,210,180,72))
 				{
 				tab_point.push_back(p1);
 				taille ++;
@@ -82,6 +82,8 @@ int main()
 				{
 				tab_erreur.push_back(p1);
 				taille_erreur++;
+				cout << x << endl;
+				cout << y << endl;
 				}
 			
 			
