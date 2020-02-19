@@ -43,6 +43,7 @@ int calculaire(int k,int longueur,int largeur,int a,int b,int diametre)
 	}	
 	return aire;
 }
+
 int main()
 {	int aire=0;
 	

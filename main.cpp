@@ -73,7 +73,11 @@ int main()
 			p1.x = x;
 			p1.y = y;
 			
+<<<<<<< HEAD
+			if (zone(x,y,330,210,180,72))
+=======
 			if (zone(x,y,250,230,180, 45))
+>>>>>>> ca6c29d5d65d8078f3823b7e3d183b2e137bbfdd
 				{
 				tab_point.push_back(p1);
 				taille ++;
@@ -82,6 +86,11 @@ int main()
 				{
 				tab_erreur.push_back(p1);
 				taille_erreur++;
+<<<<<<< HEAD
+				cout << x << endl;
+				cout << y << endl;
+=======
+>>>>>>> ca6c29d5d65d8078f3823b7e3d183b2e137bbfdd
 				}
 			
 			
