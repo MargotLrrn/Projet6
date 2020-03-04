@@ -11,7 +11,7 @@ using namespace sf;
 
 int main()
 {
-	int ligneX=400, ligneY=20, taille=0, taille_erreur=0, x, y , Dessin = false;
+	int ligneX=435, ligneY=20, taille=0, taille_erreur=0, x, y , Dessin = false;
 	vector<point> tab_point; 
 	vector<point> tab_erreur;
 	
